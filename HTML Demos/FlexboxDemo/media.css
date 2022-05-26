@@ -1,0 +1,22 @@
+@media print {
+    h2 {
+        font-size: 25pt;
+        color: green;
+    }
+}
+
+@media screen and (min-width: 600px){
+    h2{
+        font-size: 30pt;
+        color: red;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h2{
+        font-size: 20pt;
+        color: green;
+        text-align: right;
+    }
+}

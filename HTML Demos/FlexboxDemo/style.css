@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* height: 900px; */
+}
+.container div{
+    border: 1px solid rgb(88, 85, 85);
+    width: 400px;
+    /* height: 400px; */
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+    .container div{
+        height: auto;
+    }
+}

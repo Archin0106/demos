@@ -1,0 +1,31 @@
+/* Element Selector */
+h2 {
+    color: rgb(49, 171, 49);
+    font-family: Arial;
+    text-decoration: underline;
+    font-size: 25pt;
+}
+
+/* Class Selector */
+.heading {
+    font-family: 'Monotype Corsiva';
+    color: rgb(26, 112, 224);
+    font-size: 25pt;
+    border: 2px solid black;
+}
+
+/* ID Selector */
+#img1{
+    border: 3px solid blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.pics{
+    text-align: center;
+    /* margin-left: 200px; */
+    margin: 10px 20px 30px 40px;
+    border: 2px solid red;
+    width: 80%;
+    height: 600px;
+}

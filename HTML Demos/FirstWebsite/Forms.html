@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            <!-- <label for="fname">First Name</label> -->
+            <input id="fname" type="text" required placeholder="First Name" maxlength="10">            
+            <input type="password" required placeholder="Password">
+            <input type="datetime-local">
+            <input type="color">
+            <input type="text" pattern="[a-zA-Z]{5,10}"/>
+            <br><br>
+            <label>Hobbies</label>
+            <input id="singing" type="checkbox">
+            <label for="singing">Singing</label>
+            <input id="dancing" type="checkbox">
+            <label for="dancing">Dancing</label>
+            <input id="gaming" type="checkbox">
+            <label for="gaming">Gaming</label>
+            <br><br>
+            <label>Gender</label>
+            <input id="male" type="radio" name="gender">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+            <label for="countries">Countries</label>
+            <select id="countries">
+                <option>India</option>
+                <option>China</option>
+                <option>England</option>
+                <option>Russia</option>
+                <option>France</option>
+                <option>USA</option>
+            </select>
+            <br><br>
+            <textarea id="remarks" cols="50" rows="7" placeholder="Enter Remarks"></textarea>
+            <br><br>
+            <input type="button" value="Submit Form">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

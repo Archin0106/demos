@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    width: 30%;
+}
+ul li{
+    background-color: brown;
+    font-size: 15pt;
+    margin-top: 3px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    background-color: rgb(182, 180, 180);
+    color: rgb(22, 211, 22);
+}
+.picscontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.picscontainer img{
+    width: 50%;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
